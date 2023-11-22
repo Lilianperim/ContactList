@@ -8,4 +8,7 @@
     <string name="button_save">Save</string>
     <string name="contact_details">Contact details</string>
     <string name="contact_list">Contact List</string>
+    <string name="remove_contact">Remove Contact</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="contact_removed">Contact removed</string>
 </resources>
