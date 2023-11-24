@@ -26,7 +26,7 @@ class ContactAdapter(context: Context, private val contactList: MutableList<Cont
                 false
             )
             contactTitleView = binding.root
-            val titleContactViewHolder = TitleContactHolder(binding.nameTV, binding.emailTV)
+            val titleContactViewHolder = TitleContactHolder(binding.nameTv, binding.emailTv, binding.phoneTv)
             contactTitleView.tag = titleContactViewHolder
         }
 
@@ -37,5 +37,9 @@ class ContactAdapter(context: Context, private val contactList: MutableList<Cont
         return contactTitleView
     }
 
-    private data class TitleContactHolder(val nameTv: TextView, val emailTv: TextView)
+    private data class TitleContactHolder(
+        val nameTv: TextView,
+        val emailTv: TextView,
+        val phoneTv: TextView
+    )
 }
